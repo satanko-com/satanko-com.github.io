@@ -9,9 +9,7 @@ paginate: 8
 paginate_path: /page/:num/
 infinite_scroll: true #change to false if you want to use pagination
 gems: [jekyll-paginate]
-tag_dir: /tag
 media_folder: /media/compressed
-author_default_avatar: /profile-pic.jpg
 tumblr: "#"
 pinterest: "#"
 instagram: "#"
@@ -57,12 +55,6 @@ prose:
               value: "post"
             - name: "full width"
               value: "post-full"
-      - name: "author"
-        field:
-          element: "text"
-          label: "Author"
-          help: "author id as defined within _data/authors.yml"
-          type: "text"
       - name: "featimg"
         field:
           element: "text"
