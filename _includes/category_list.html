@@ -1,6 +1,8 @@
 <ul class="category-list">
   
     change category_list to list all categories manually
+
+    <li><a href="{{ site.category_dir | prepend: site.baseurl | replace: '//', '/' }}/categories/category_1">Category 1</a></li>
   
     <!-- {% assign category_list = site.categories %}
     {% if category_list.first[0] == null %}
